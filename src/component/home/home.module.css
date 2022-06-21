@@ -1,0 +1,74 @@
+.main {
+    background-color:  #333;
+    color: white;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+.divHeader {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.cover {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.header {
+    width: 35%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-left: 15%;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    border-bottom: 3px solid white;
+}
+
+.divMidle {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 17.7%;
+
+}
+
+.midleDivText {
+    width: 38%;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.btn {
+    font-size: 1.2em;
+    margin-top: 1%;
+    padding: 10px 15px;
+    color: initial;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: initial;
+}
+.footer {
+    margin-top: 17%;
+    text-align: center;
+    padding-bottom: 1.5%;
+    color: rgba(255, 255, 255, .5);
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
